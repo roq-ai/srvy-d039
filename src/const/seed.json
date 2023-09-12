@@ -1,0 +1,2222 @@
+[
+  {
+    "vendor": [
+      {
+        "id": "8a845560-18f6-4690-aeaf-81d20b18e733",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-11T19:23:41.144Z",
+        "updated_at": "2023-09-12T02:46:07.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dc98b5c-ae1f-4b1f-9703-3f6ef50123c6",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T23:54:33.028Z",
+        "updated_at": "2023-09-11T19:30:58.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09b06550-2805-4a10-8f67-0498b1e0800b",
+        "name": "123 Industries",
+        "email": "sales@123industries.com",
+        "created_at": "2023-09-12T00:48:30.323Z",
+        "updated_at": "2023-09-11T11:21:26.972Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f12c9324-3f79-4c3e-9627-368c8a794111",
+        "name": "Acme Corporation",
+        "email": "support@acmecorp.com",
+        "created_at": "2023-09-11T17:28:59.410Z",
+        "updated_at": "2023-09-11T22:21:40.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3d0d789-a80a-475e-aa93-d0816bf2a70c",
+        "name": "Global Solutions",
+        "email": "info@globalsolutions.com",
+        "created_at": "2023-09-11T11:32:30.459Z",
+        "updated_at": "2023-09-11T17:31:43.699Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "6ebba6ba-e39c-465b-bccd-52cb365a4f4b",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please take a few minutes to provide your feedback on our products and services.",
+        "status": "Active",
+        "created_at": "2023-09-11T21:09:32.289Z",
+        "updated_at": "2023-09-12T04:27:48.436Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2efaa1c7-e247-47ae-8318-eaef54a59026",
+        "title": "Employee Engagement Survey",
+        "description": "We value your opinion! Help us improve by sharing your thoughts.",
+        "status": "Closed",
+        "created_at": "2023-09-11T23:01:06.685Z",
+        "updated_at": "2023-09-11T09:49:23.595Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89f43d2d-eb48-4d1d-a1c1-2e7cfedba619",
+        "title": "Product Feedback Survey",
+        "description": "Tell us what you think about our latest product release.",
+        "status": "Upcoming",
+        "created_at": "2023-09-11T21:41:30.622Z",
+        "updated_at": "2023-09-11T12:35:42.966Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bbefdd78-d386-4387-beaf-b5c412d5d107",
+        "title": "Market Research Survey",
+        "description": "Your input is valuable in shaping our future strategies.",
+        "status": "Ongoing",
+        "created_at": "2023-09-11T17:35:25.447Z",
+        "updated_at": "2023-09-12T03:14:09.888Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1af2f850-96b5-4f44-a076-6bd6fbbf2e88",
+        "title": "Event Feedback Survey",
+        "description": "We appreciate your feedback on our recent event.",
+        "status": "Pending",
+        "created_at": "2023-09-11T21:21:33.553Z",
+        "updated_at": "2023-09-11T23:27:06.881Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "aee3bf46-0b2f-456d-870a-24f1e9aebc9f",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T14:04:38.697Z",
+        "updated_at": "2023-09-11T11:05:43.267Z",
+        "survey_id": "1af2f850-96b5-4f44-a076-6bd6fbbf2e88"
+      },
+      {
+        "id": "07754c10-06eb-4a2e-9766-c9ba7a29204e",
+        "text": "How likely are you to recommend our services to others?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-12T06:53:43.861Z",
+        "updated_at": "2023-09-11T12:08:17.881Z",
+        "survey_id": "1af2f850-96b5-4f44-a076-6bd6fbbf2e88"
+      },
+      {
+        "id": "32a34810-d6fe-490e-8d12-827b5c0cd994",
+        "text": "Which type of smartphone do you prefer?",
+        "type": "Open-ended",
+        "created_at": "2023-09-12T05:57:03.510Z",
+        "updated_at": "2023-09-11T16:10:55.946Z",
+        "survey_id": "6ebba6ba-e39c-465b-bccd-52cb365a4f4b"
+      },
+      {
+        "id": "147a22cd-0025-4c2b-96d8-a4a7f1aba08c",
+        "text": "What is your opinion on the current market trends?",
+        "type": "Yes/No",
+        "created_at": "2023-09-11T16:05:43.463Z",
+        "updated_at": "2023-09-11T23:59:22.073Z",
+        "survey_id": "1af2f850-96b5-4f44-a076-6bd6fbbf2e88"
+      },
+      {
+        "id": "284dd34b-ad33-4478-a616-4306c1864364",
+        "text": "Did you find the event informative and engaging?",
+        "type": "Likert Scale",
+        "created_at": "2023-09-12T00:41:03.179Z",
+        "updated_at": "2023-09-11T15:11:49.495Z",
+        "survey_id": "89f43d2d-eb48-4d1d-a1c1-2e7cfedba619"
+      }
+    ],
+    "response": [
+      {
+        "id": "fd51f00f-4af7-40f1-9a98-21ec44da9212",
+        "answer": "Blue",
+        "created_at": "2023-09-11T19:57:21.951Z",
+        "updated_at": "2023-09-11T10:10:02.736Z",
+        "question_id": "32a34810-d6fe-490e-8d12-827b5c0cd994",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a97351b8-6be6-4250-86e9-3caf40e53981",
+        "answer": "Extremely likely",
+        "created_at": "2023-09-12T08:15:22.591Z",
+        "updated_at": "2023-09-12T06:53:11.550Z",
+        "question_id": "32a34810-d6fe-490e-8d12-827b5c0cd994",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47a47059-f2ce-446d-9ef7-eeaecb1c051f",
+        "answer": "iPhone",
+        "created_at": "2023-09-11T22:38:31.166Z",
+        "updated_at": "2023-09-11T17:44:35.315Z",
+        "question_id": "147a22cd-0025-4c2b-96d8-a4a7f1aba08c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "443e585a-1588-4a4f-b194-9f75d25e24b6",
+        "answer": "I believe the market trends are promising",
+        "created_at": "2023-09-12T03:00:14.227Z",
+        "updated_at": "2023-09-11T21:25:37.064Z",
+        "question_id": "147a22cd-0025-4c2b-96d8-a4a7f1aba08c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ed01f08-415d-4986-a18a-f8b25cd7a25a",
+        "answer": "Yes, it was a great experience",
+        "created_at": "2023-09-12T04:44:40.229Z",
+        "updated_at": "2023-09-11T21:29:26.425Z",
+        "question_id": "147a22cd-0025-4c2b-96d8-a4a7f1aba08c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6cf29662-666f-4a30-a6cb-03f7f9ea752a",
+        "email": "Aurelio_Keebler84@hotmail.com",
+        "firstName": "Arden",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51188062",
+        "tenantId": null
+      },
+      {
+        "reference": "f96b6d77-4173-4e9b-a21d-f00c28bc84ef",
+        "email": "Delta55@yahoo.com",
+        "firstName": "Jaime",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30530151",
+        "tenantId": null
+      },
+      {
+        "reference": "3faddbaf-4c8b-45ee-a1eb-5d11146f254a",
+        "email": "Valerie1@gmail.com",
+        "firstName": "Clifton",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89841504",
+        "tenantId": null
+      },
+      {
+        "reference": "bc1e1930-71d8-4a2b-9b42-6b0daf21c571",
+        "email": "Makenzie.Osinski98@yahoo.com",
+        "firstName": "Henderson",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28309619",
+        "tenantId": null
+      },
+      {
+        "reference": "2af5423e-9eae-4529-b50f-96acb6aa6b25",
+        "email": "Sheridan_Torp72@gmail.com",
+        "firstName": "Joana",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "7fa7b43e-208b-4b93-ac91-3d8cd66c9df0",
+        "name": "Vendor1",
+        "email": "vendor1@example.com",
+        "created_at": "2023-09-12T08:22:39.049Z",
+        "updated_at": "2023-09-11T12:59:21.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88cef96a-feae-4da8-831a-dbad7ab1e9b3",
+        "name": "Vendor2",
+        "email": "vendor2@example.com",
+        "created_at": "2023-09-12T07:54:57.755Z",
+        "updated_at": "2023-09-11T09:12:13.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90ace989-9c6b-4439-8029-80ce341e0f1f",
+        "name": "Vendor3",
+        "email": "vendor3@example.com",
+        "created_at": "2023-09-12T04:54:29.841Z",
+        "updated_at": "2023-09-11T09:41:17.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c70647b-9b72-4b65-82fe-04203a02efb6",
+        "name": "Vendor4",
+        "email": "vendor4@example.com",
+        "created_at": "2023-09-11T12:30:04.943Z",
+        "updated_at": "2023-09-11T08:37:50.699Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5104f94-0893-45ec-bc4c-360862c9b594",
+        "name": "Vendor5",
+        "email": "vendor5@example.com",
+        "created_at": "2023-09-12T05:08:29.183Z",
+        "updated_at": "2023-09-11T12:46:19.022Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "62e3e574-d988-4f94-b630-ef4597067a03",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please provide your feedback on our services",
+        "status": "Active",
+        "created_at": "2023-09-11T22:10:41.960Z",
+        "updated_at": "2023-09-11T11:50:10.347Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1c389891-d94a-443c-a77b-6920888cdb6c",
+        "title": "Employee Engagement Survey",
+        "description": "Help us improve our workplace culture",
+        "status": "Inactive",
+        "created_at": "2023-09-12T06:05:43.301Z",
+        "updated_at": "2023-09-11T09:58:22.092Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b85ce7f7-dbf3-4109-9406-8bf72380fd05",
+        "title": "Product Feedback Survey",
+        "description": "Share your thoughts on our latest product release",
+        "status": "Draft",
+        "created_at": "2023-09-11T15:32:23.553Z",
+        "updated_at": "2023-09-11T09:54:34.845Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f5541638-1805-43d4-9f16-a7ae08917269",
+        "title": "Market Research Survey",
+        "description": "Assist us in understanding market trends",
+        "status": "Completed",
+        "created_at": "2023-09-11T20:40:33.363Z",
+        "updated_at": "2023-09-11T16:20:53.147Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e38c343a-01e9-4591-adaa-8bbab28ce908",
+        "title": "Event Feedback Survey",
+        "description": "Tell us about your experience at our recent event",
+        "status": "Pending",
+        "created_at": "2023-09-11T14:01:14.449Z",
+        "updated_at": "2023-09-11T13:20:51.906Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "7d52cc48-1c78-43d4-8057-34de65f845d8",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T10:44:45.825Z",
+        "updated_at": "2023-09-11T12:17:16.177Z",
+        "survey_id": "62e3e574-d988-4f94-b630-ef4597067a03"
+      },
+      {
+        "id": "273c55b2-9a1f-4170-9b3b-412444b71620",
+        "text": "How likely are you to recommend our company to a friend?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-12T02:44:21.502Z",
+        "updated_at": "2023-09-11T17:18:35.125Z",
+        "survey_id": "b85ce7f7-dbf3-4109-9406-8bf72380fd05"
+      },
+      {
+        "id": "e27feb4f-9c67-4481-93a9-8135707c92a2",
+        "text": "What features would you like to see in our next product?",
+        "type": "Open-Ended",
+        "created_at": "2023-09-12T07:49:07.767Z",
+        "updated_at": "2023-09-11T19:32:23.671Z",
+        "survey_id": "1c389891-d94a-443c-a77b-6920888cdb6c"
+      },
+      {
+        "id": "6498c713-38bf-45ed-9c7f-d73b4b448680",
+        "text": "Which social media platform do you use the most?",
+        "type": "Yes/No",
+        "created_at": "2023-09-11T13:20:43.161Z",
+        "updated_at": "2023-09-11T19:05:03.048Z",
+        "survey_id": "b85ce7f7-dbf3-4109-9406-8bf72380fd05"
+      },
+      {
+        "id": "9a9086a4-1105-4e13-9117-e106adfe8bfd",
+        "text": "Rate your overall satisfaction with our customer service",
+        "type": "Likert Scale",
+        "created_at": "2023-09-11T21:12:16.583Z",
+        "updated_at": "2023-09-12T05:04:00.690Z",
+        "survey_id": "1c389891-d94a-443c-a77b-6920888cdb6c"
+      }
+    ],
+    "response": [
+      {
+        "id": "209a7822-d628-4899-ae96-0373cc18d282",
+        "answer": "Yes",
+        "created_at": "2023-09-11T13:58:08.293Z",
+        "updated_at": "2023-09-11T17:30:23.030Z",
+        "question_id": "273c55b2-9a1f-4170-9b3b-412444b71620",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a162184-eb2a-4a9f-bbe2-40dd53e80ea1",
+        "answer": "No",
+        "created_at": "2023-09-12T01:43:29.529Z",
+        "updated_at": "2023-09-11T18:53:51.410Z",
+        "question_id": "7d52cc48-1c78-43d4-8057-34de65f845d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40e4a184-f213-490b-b1fe-4ac78128c920",
+        "answer": "Maybe",
+        "created_at": "2023-09-12T07:47:00.805Z",
+        "updated_at": "2023-09-11T12:12:35.633Z",
+        "question_id": "6498c713-38bf-45ed-9c7f-d73b4b448680",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf84912c-7d1e-4872-a58f-d0ef9aa4475b",
+        "answer": "Not applicable",
+        "created_at": "2023-09-11T10:03:51.117Z",
+        "updated_at": "2023-09-12T02:21:49.893Z",
+        "question_id": "273c55b2-9a1f-4170-9b3b-412444b71620",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9d48eba-be6f-43fe-afa2-379c1352ec20",
+        "answer": "I don't know",
+        "created_at": "2023-09-11T19:58:57.200Z",
+        "updated_at": "2023-09-11T19:25:07.510Z",
+        "question_id": "6498c713-38bf-45ed-9c7f-d73b4b448680",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6ac2e2a1-8111-4a78-8fbf-e81811127a33",
+        "email": "Estelle_Koss9@hotmail.com",
+        "firstName": "Avery",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95966242",
+        "tenantId": null
+      },
+      {
+        "reference": "77625451-5c50-48bc-ab5e-a513d07c7aeb",
+        "email": "Ricardo_Haag@hotmail.com",
+        "firstName": "Justus",
+        "lastName": "Grady-Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93315319",
+        "tenantId": null
+      },
+      {
+        "reference": "d1877e5f-127a-4667-b69b-b5f6ecf6e8df",
+        "email": "Jonathon34@yahoo.com",
+        "firstName": "Abigail",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1061.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a689cfad-5de7-48c1-8813-a93e416cff21",
+        "email": "Kevin.Cartwright@yahoo.com",
+        "firstName": "Stanley",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/754.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5e4f1d7-db81-44e4-82c7-9da74412aaed",
+        "email": "Tad22@gmail.com",
+        "firstName": "Audrey",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "219406b3-8824-4a3e-bc39-68762e52ab76",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-11T13:50:50.657Z",
+        "updated_at": "2023-09-12T01:10:07.992Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14dcdde0-d38c-4194-89f3-9741302cc8a9",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T14:13:56.780Z",
+        "updated_at": "2023-09-11T20:39:09.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb7fe936-443c-4bb2-8474-f01598011d08",
+        "name": "123 Enterprises",
+        "email": "sales@123enterprises.com",
+        "created_at": "2023-09-11T22:16:39.305Z",
+        "updated_at": "2023-09-11T22:22:29.109Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac7000e2-22a2-47ff-9af6-c3db0cd04476",
+        "name": "Acme Ltd.",
+        "email": "support@acmeltd.com",
+        "created_at": "2023-09-11T22:24:38.560Z",
+        "updated_at": "2023-09-11T14:45:18.711Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d177dbad-e554-4540-bfea-93f008e760f2",
+        "name": "Global Solutions",
+        "email": "info@globalsolutions.com",
+        "created_at": "2023-09-11T09:04:19.437Z",
+        "updated_at": "2023-09-11T15:42:35.118Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "89edf6c9-581d-42bb-abac-9e0681957b6c",
+        "title": "Customer Satisfaction Survey",
+        "description": "Gather feedback from customers to improve our services",
+        "status": "Active",
+        "created_at": "2023-09-11T10:56:41.045Z",
+        "updated_at": "2023-09-11T20:43:59.664Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f728a6d-fdef-4930-81e6-6f8d1caed0c6",
+        "title": "Employee Feedback Survey",
+        "description": "Collect input from employees to enhance the work environment",
+        "status": "Inactive",
+        "created_at": "2023-09-12T06:52:56.670Z",
+        "updated_at": "2023-09-11T20:24:02.394Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f6a32602-870e-4dd1-8497-013eb0969af8",
+        "title": "Product Usage Survey",
+        "description": "Understand how customers are using our product",
+        "status": "Draft",
+        "created_at": "2023-09-12T05:32:55.511Z",
+        "updated_at": "2023-09-12T07:46:55.991Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ac53480f-4937-4310-ab2f-7c0d24394e76",
+        "title": "Market Research Survey",
+        "description": "Conduct market research to identify trends and opportunities",
+        "status": "Completed",
+        "created_at": "2023-09-12T07:39:05.119Z",
+        "updated_at": "2023-09-12T04:37:22.453Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d551bcdf-85cc-4d8c-97d9-32574ccc3d4f",
+        "title": "Event Feedback Survey",
+        "description": "Evaluate attendee satisfaction and gather suggestions for improvement",
+        "status": "Pending",
+        "created_at": "2023-09-11T21:51:42.752Z",
+        "updated_at": "2023-09-12T05:01:42.911Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "2dd8970b-1819-454d-9428-13f63d65c8eb",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-12T07:29:35.241Z",
+        "updated_at": "2023-09-11T09:38:09.534Z",
+        "survey_id": "d551bcdf-85cc-4d8c-97d9-32574ccc3d4f"
+      },
+      {
+        "id": "9adeda26-5ea9-47bf-8b28-bb5267ddc8b6",
+        "text": "How satisfied are you with our customer service?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-11T16:35:37.041Z",
+        "updated_at": "2023-09-11T18:00:51.445Z",
+        "survey_id": "d551bcdf-85cc-4d8c-97d9-32574ccc3d4f"
+      },
+      {
+        "id": "e8201866-0063-4eca-9dfc-cae59868c051",
+        "text": "Do you prefer online or in-person shopping?",
+        "type": "Open-ended",
+        "created_at": "2023-09-11T10:54:42.114Z",
+        "updated_at": "2023-09-12T07:30:23.816Z",
+        "survey_id": "d551bcdf-85cc-4d8c-97d9-32574ccc3d4f"
+      },
+      {
+        "id": "3814ce22-f750-4759-9c44-37f93d36ccf4",
+        "text": "What is your age range?",
+        "type": "Yes/No",
+        "created_at": "2023-09-11T17:06:35.231Z",
+        "updated_at": "2023-09-11T19:55:30.247Z",
+        "survey_id": "1f728a6d-fdef-4930-81e6-6f8d1caed0c6"
+      },
+      {
+        "id": "bb302707-7fa5-44c9-ae59-8dc6ee1a861b",
+        "text": "Which social media platform do you use the most?",
+        "type": "Likert Scale",
+        "created_at": "2023-09-11T14:23:01.811Z",
+        "updated_at": "2023-09-12T02:09:56.113Z",
+        "survey_id": "f6a32602-870e-4dd1-8497-013eb0969af8"
+      }
+    ],
+    "response": [
+      {
+        "id": "376fb13c-984c-4f67-b354-f129fb6f9108",
+        "answer": "Blue",
+        "created_at": "2023-09-12T05:17:27.884Z",
+        "updated_at": "2023-09-12T04:30:59.273Z",
+        "question_id": "9adeda26-5ea9-47bf-8b28-bb5267ddc8b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dc9bfe5-cb94-4dd8-97df-162fa9641b11",
+        "answer": "Very satisfied",
+        "created_at": "2023-09-12T05:42:51.671Z",
+        "updated_at": "2023-09-12T04:33:14.901Z",
+        "question_id": "3814ce22-f750-4759-9c44-37f93d36ccf4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3260b2a-e3ed-4b30-bbfd-daeb59fe2867",
+        "answer": "Online",
+        "created_at": "2023-09-12T02:53:17.826Z",
+        "updated_at": "2023-09-11T19:09:20.925Z",
+        "question_id": "9adeda26-5ea9-47bf-8b28-bb5267ddc8b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "415d8873-884c-413d-a24f-8994ac9524ff",
+        "answer": "25-34",
+        "created_at": "2023-09-11T10:27:57.005Z",
+        "updated_at": "2023-09-11T08:57:35.945Z",
+        "question_id": "bb302707-7fa5-44c9-ae59-8dc6ee1a861b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "363a7fb9-21a3-4d2f-8b5c-8d4e65c28eff",
+        "answer": "Facebook",
+        "created_at": "2023-09-11T12:18:13.112Z",
+        "updated_at": "2023-09-11T19:46:39.420Z",
+        "question_id": "9adeda26-5ea9-47bf-8b28-bb5267ddc8b6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2a905343-2aa2-4c12-a724-6208f167a3ea",
+        "email": "Nathanael.Walsh@hotmail.com",
+        "firstName": "Annetta",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fda1cbde-afc3-42fa-842e-45e45c2d477a",
+        "email": "Hailee.Nikolaus@gmail.com",
+        "firstName": "Fabiola",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49244504",
+        "tenantId": null
+      },
+      {
+        "reference": "a40a6468-d35e-4690-a640-4794b37060ca",
+        "email": "Angelina_Hahn7@hotmail.com",
+        "firstName": "Marcellus",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94549498",
+        "tenantId": null
+      },
+      {
+        "reference": "4ffe6e08-9864-4c11-9c35-f38da40e2ca6",
+        "email": "Bret42@hotmail.com",
+        "firstName": "Elsie",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e0bd9e3-add6-4468-b508-783d93decb4e",
+        "email": "Newton_Hansen@gmail.com",
+        "firstName": "Zelma",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69920179",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "80cdf0eb-c160-4431-9a62-b3bd156cc44a",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-11T14:12:05.535Z",
+        "updated_at": "2023-09-12T07:59:06.850Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45ab4c4e-345b-433d-8f6a-1891d30b1103",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T20:04:40.318Z",
+        "updated_at": "2023-09-11T17:53:30.273Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3ce7a34-b35d-4ccf-bc98-bd59793891cb",
+        "name": "123 Enterprises",
+        "email": "sales@123enterprises.com",
+        "created_at": "2023-09-11T23:34:15.543Z",
+        "updated_at": "2023-09-12T08:02:25.853Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea3a8b8e-251c-42cd-83ea-0de403979f6f",
+        "name": "Acme Ltd",
+        "email": "support@acmeltd.com",
+        "created_at": "2023-09-12T02:50:00.635Z",
+        "updated_at": "2023-09-11T21:29:44.161Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61f89008-6296-4910-8a9e-29d18756c3fc",
+        "name": "Global Solutions",
+        "email": "info@globalsolutions.com",
+        "created_at": "2023-09-12T08:11:21.298Z",
+        "updated_at": "2023-09-12T02:10:04.825Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "d72d6c85-c1cb-4995-8490-0f1bb4da46fa",
+        "title": "Customer Satisfaction Survey",
+        "description": "Gather feedback from customers about their experience",
+        "status": "Active",
+        "created_at": "2023-09-12T02:48:28.345Z",
+        "updated_at": "2023-09-11T11:34:45.074Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b54285e2-a869-4d20-aa61-0a2f09bcca62",
+        "title": "Employee Engagement Survey",
+        "description": "Measure employee satisfaction and identify areas of improvement",
+        "status": "Inactive",
+        "created_at": "2023-09-12T07:28:16.547Z",
+        "updated_at": "2023-09-11T12:46:34.934Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "34b7bd44-70c3-446b-a560-b1af213e59eb",
+        "title": "Product Feedback Survey",
+        "description": "Collect feedback on product features and performance",
+        "status": "Draft",
+        "created_at": "2023-09-12T07:52:21.038Z",
+        "updated_at": "2023-09-11T15:14:17.301Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "709cb676-ee92-449e-b538-d45a334cbef0",
+        "title": "Event Feedback Survey",
+        "description": "Evaluate attendee satisfaction and event success",
+        "status": "Completed",
+        "created_at": "2023-09-11T21:40:29.883Z",
+        "updated_at": "2023-09-12T05:46:02.335Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "412e11f4-6e4e-4472-8dec-f1c927b2b0e3",
+        "title": "Market Research Survey",
+        "description": "Conduct market research to gather insights",
+        "status": "Pending",
+        "created_at": "2023-09-11T23:45:06.594Z",
+        "updated_at": "2023-09-11T09:23:53.460Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "64704601-08b5-45b1-84f0-513c4ae265aa",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T21:21:21.834Z",
+        "updated_at": "2023-09-11T10:00:19.608Z",
+        "survey_id": "b54285e2-a869-4d20-aa61-0a2f09bcca62"
+      },
+      {
+        "id": "592a23be-332d-460c-8702-a022e119c3aa",
+        "text": "How satisfied are you with our customer service?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-11T19:23:19.124Z",
+        "updated_at": "2023-09-11T11:17:56.025Z",
+        "survey_id": "b54285e2-a869-4d20-aa61-0a2f09bcca62"
+      },
+      {
+        "id": "9551649e-b955-4b49-a05a-381a66c12875",
+        "text": "Rate the quality of our product on a scale of 1 to 10",
+        "type": "Open-ended",
+        "created_at": "2023-09-12T00:40:30.166Z",
+        "updated_at": "2023-09-11T22:49:31.636Z",
+        "survey_id": "34b7bd44-70c3-446b-a560-b1af213e59eb"
+      },
+      {
+        "id": "604a71b0-5d49-4f3e-a45c-201262166f3b",
+        "text": "What did you enjoy most about the event?",
+        "type": "Likert Scale",
+        "created_at": "2023-09-11T22:01:51.474Z",
+        "updated_at": "2023-09-12T02:05:58.352Z",
+        "survey_id": "b54285e2-a869-4d20-aa61-0a2f09bcca62"
+      },
+      {
+        "id": "0387ff2b-a82a-4214-8833-90ca0a60b1f4",
+        "text": "Which brand of smartphone do you prefer?",
+        "type": "Yes/No",
+        "created_at": "2023-09-11T20:11:36.927Z",
+        "updated_at": "2023-09-12T06:07:54.630Z",
+        "survey_id": "412e11f4-6e4e-4472-8dec-f1c927b2b0e3"
+      }
+    ],
+    "response": [
+      {
+        "id": "49dd1a94-0689-493a-8b97-b34e867e1366",
+        "answer": "Blue",
+        "created_at": "2023-09-11T22:50:53.488Z",
+        "updated_at": "2023-09-12T01:54:28.386Z",
+        "question_id": "604a71b0-5d49-4f3e-a45c-201262166f3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca981a1e-93b6-4f18-bf34-46a25ce99bb1",
+        "answer": "Very satisfied",
+        "created_at": "2023-09-12T04:51:57.830Z",
+        "updated_at": "2023-09-11T12:55:47.732Z",
+        "question_id": "0387ff2b-a82a-4214-8833-90ca0a60b1f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0393b40b-7067-4332-a63d-0202d1c8eb7e",
+        "answer": "8",
+        "created_at": "2023-09-11T16:15:30.150Z",
+        "updated_at": "2023-09-12T05:47:21.735Z",
+        "question_id": "64704601-08b5-45b1-84f0-513c4ae265aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6575e67c-a413-4e6b-947d-c30ffce05562",
+        "answer": "Networking opportunities",
+        "created_at": "2023-09-11T16:51:05.662Z",
+        "updated_at": "2023-09-12T03:09:17.108Z",
+        "question_id": "604a71b0-5d49-4f3e-a45c-201262166f3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e40c8bd-7b71-4324-b54b-98941a80f68a",
+        "answer": "Apple",
+        "created_at": "2023-09-11T14:29:53.305Z",
+        "updated_at": "2023-09-12T06:49:25.255Z",
+        "question_id": "0387ff2b-a82a-4214-8833-90ca0a60b1f4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e10af4c2-e8c2-4a91-b878-9cd62a9ca2af",
+        "email": "Kiera.Zboncak@yahoo.com",
+        "firstName": "Marlin",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/669.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e337d68-1a43-4815-bc67-3212ba93b7c9",
+        "email": "Irving_Zulauf74@gmail.com",
+        "firstName": "Makayla",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/345.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c32ea1a-9542-40bf-a1ab-e3d33a1f618c",
+        "email": "Imogene_Johns@gmail.com",
+        "firstName": "Mayra",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16456916",
+        "tenantId": null
+      },
+      {
+        "reference": "e1440ce8-d205-4305-98bb-30a981c3e3d9",
+        "email": "Jayden.Reichel@hotmail.com",
+        "firstName": "Marianne",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ddb4316a-c909-4f61-8e31-ce181bf5f5d1",
+        "email": "Jayden_Toy51@hotmail.com",
+        "firstName": "Julio",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37271661",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "6e9a7cc9-2052-4bc8-ba40-b25d1bc2aff2",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-12T01:19:11.475Z",
+        "updated_at": "2023-09-11T16:01:29.602Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1e3c16a-4a3a-4dc2-9a96-1cf7c36ace64",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T13:26:55.157Z",
+        "updated_at": "2023-09-11T11:54:42.034Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "842b60cf-38f0-4a6d-9746-adc3d6d18622",
+        "name": "123 Industries",
+        "email": "sales@123industries.com",
+        "created_at": "2023-09-11T08:36:21.717Z",
+        "updated_at": "2023-09-11T09:32:31.407Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1febea9-665b-4480-9262-68a9c018a7b8",
+        "name": "Acme Corporation",
+        "email": "support@acmecorp.com",
+        "created_at": "2023-09-12T05:39:38.941Z",
+        "updated_at": "2023-09-11T14:12:35.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16cf30b7-7960-4d61-ae9a-4930b20148d5",
+        "name": "Global Enterprises",
+        "email": "info@globale.com",
+        "created_at": "2023-09-12T04:40:50.691Z",
+        "updated_at": "2023-09-11T14:07:29.090Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "20b5ae13-77d7-4d6e-bd7b-3b72c14b7ec6",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please provide your feedback on our products and services",
+        "status": "Open",
+        "created_at": "2023-09-11T18:29:30.707Z",
+        "updated_at": "2023-09-12T02:31:59.836Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e96f8cbc-a21d-4456-9783-64c4531cf856",
+        "title": "Employee Engagement Survey",
+        "description": "Help us improve employee satisfaction by sharing your thoughts",
+        "status": "Closed",
+        "created_at": "2023-09-12T07:53:17.173Z",
+        "updated_at": "2023-09-11T20:14:17.329Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8125bd4c-fec2-42c9-b518-2a4cabe711aa",
+        "title": "Product Feedback Survey",
+        "description": "We value your opinion on our latest product release",
+        "status": "Pending",
+        "created_at": "2023-09-11T14:02:07.373Z",
+        "updated_at": "2023-09-11T12:28:00.655Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8e17302a-78b9-47fe-b5fa-413389177a59",
+        "title": "Market Research Survey",
+        "description": "Assist us in gathering market insights for our new project",
+        "status": "Active",
+        "created_at": "2023-09-11T19:08:17.887Z",
+        "updated_at": "2023-09-12T06:59:20.835Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "69c84d75-6919-4ad1-99ab-fa994f4e90af",
+        "title": "Event Feedback Survey",
+        "description": "Tell us about your experience at our recent event",
+        "status": "Completed",
+        "created_at": "2023-09-11T19:56:40.291Z",
+        "updated_at": "2023-09-12T06:47:15.728Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "b552092c-f552-4e92-bba6-2a65db652ca9",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T22:42:44.042Z",
+        "updated_at": "2023-09-11T16:00:26.864Z",
+        "survey_id": "8125bd4c-fec2-42c9-b518-2a4cabe711aa"
+      },
+      {
+        "id": "37ac5831-ac3b-4ed4-a01e-aff89d077667",
+        "text": "How satisfied are you with our customer service?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-11T21:32:38.546Z",
+        "updated_at": "2023-09-12T00:05:28.256Z",
+        "survey_id": "69c84d75-6919-4ad1-99ab-fa994f4e90af"
+      },
+      {
+        "id": "af17776f-1a62-4fb1-975f-3a6b2a02c361",
+        "text": "Do you prefer online shopping or in-store shopping?",
+        "type": "Open-Ended",
+        "created_at": "2023-09-11T10:12:36.150Z",
+        "updated_at": "2023-09-11T11:07:27.293Z",
+        "survey_id": "69c84d75-6919-4ad1-99ab-fa994f4e90af"
+      },
+      {
+        "id": "1b05f855-699c-479e-a6ed-56670799c062",
+        "text": "What is your preferred method of communication?",
+        "type": "Yes/No",
+        "created_at": "2023-09-12T07:51:36.637Z",
+        "updated_at": "2023-09-12T01:36:51.188Z",
+        "survey_id": "69c84d75-6919-4ad1-99ab-fa994f4e90af"
+      },
+      {
+        "id": "1a552c84-7633-4246-a3e7-5839e8d153de",
+        "text": "Would you recommend our company to others?",
+        "type": "Likert Scale",
+        "created_at": "2023-09-11T16:49:17.025Z",
+        "updated_at": "2023-09-11T11:25:37.620Z",
+        "survey_id": "e96f8cbc-a21d-4456-9783-64c4531cf856"
+      }
+    ],
+    "response": [
+      {
+        "id": "7752bfd8-6ed4-40c5-b557-8969d849d224",
+        "answer": "Yes",
+        "created_at": "2023-09-11T08:50:48.499Z",
+        "updated_at": "2023-09-12T00:46:46.265Z",
+        "question_id": "1a552c84-7633-4246-a3e7-5839e8d153de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97e604ba-e91b-4398-8ee6-8a2598505b9c",
+        "answer": "No",
+        "created_at": "2023-09-11T15:53:43.617Z",
+        "updated_at": "2023-09-11T19:12:17.040Z",
+        "question_id": "af17776f-1a62-4fb1-975f-3a6b2a02c361",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7e4e25f-4a9f-44b3-b989-7bd70e5f2ec9",
+        "answer": "Maybe",
+        "created_at": "2023-09-11T16:53:41.788Z",
+        "updated_at": "2023-09-12T02:22:23.024Z",
+        "question_id": "37ac5831-ac3b-4ed4-a01e-aff89d077667",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21d3fc75-3e6d-4d4e-a86f-ea48eeee7b8c",
+        "answer": "Not sure",
+        "created_at": "2023-09-12T01:54:49.284Z",
+        "updated_at": "2023-09-11T23:43:28.131Z",
+        "question_id": "1a552c84-7633-4246-a3e7-5839e8d153de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a2032ae-0700-4fa2-9bf6-14876841dfe4",
+        "answer": "I prefer not to answer",
+        "created_at": "2023-09-11T08:54:38.886Z",
+        "updated_at": "2023-09-12T07:13:56.160Z",
+        "question_id": "37ac5831-ac3b-4ed4-a01e-aff89d077667",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "066c56d0-e099-49d8-aa0b-89a395f6636f",
+        "email": "Tobin_Sawayn@gmail.com",
+        "firstName": "Deontae",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17267780",
+        "tenantId": null
+      },
+      {
+        "reference": "2ff9c399-32f1-41b7-af93-e7e2a4df07a5",
+        "email": "Keon1@hotmail.com",
+        "firstName": "Clovis",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58036444",
+        "tenantId": null
+      },
+      {
+        "reference": "d1f2b969-b5d5-4c60-8d6c-ec10004a7677",
+        "email": "Camilla.Kuphal@yahoo.com",
+        "firstName": "Adela",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5770034",
+        "tenantId": null
+      },
+      {
+        "reference": "990b8dc0-d047-4eff-9980-1de351bd3322",
+        "email": "Margaret_Dare@yahoo.com",
+        "firstName": "Heber",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "33682423-38a6-489f-91e2-6ef17e95ce23",
+        "email": "Carmen_Gutmann66@yahoo.com",
+        "firstName": "Helen",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2353326",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "1b52d3df-ad52-48aa-9bbd-488efc025f02",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-12T00:52:49.390Z",
+        "updated_at": "2023-09-12T00:16:08.448Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46b529a6-3fce-430d-afaa-9b7a5ad836df",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T21:55:10.961Z",
+        "updated_at": "2023-09-12T00:47:53.228Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6902ae74-921c-4250-89f6-3e7931740aa7",
+        "name": "123 Enterprises",
+        "email": "sales@123enterprises.com",
+        "created_at": "2023-09-12T07:28:35.278Z",
+        "updated_at": "2023-09-12T03:49:07.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21a6dde1-5334-41d5-a4fd-e84eac38bfc1",
+        "name": "PQR Ltd.",
+        "email": "support@pqr.com",
+        "created_at": "2023-09-11T12:29:30.681Z",
+        "updated_at": "2023-09-11T14:56:12.444Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93d748ed-a398-439a-8d77-885b2bf26ebd",
+        "name": "DEF Industries",
+        "email": "info@defindustries.com",
+        "created_at": "2023-09-12T07:26:54.257Z",
+        "updated_at": "2023-09-12T03:11:41.399Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "d4cc4574-0695-4bf1-ad2b-6493f2950a26",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please take a few minutes to share your feedback and help us improve our services.",
+        "status": "active",
+        "created_at": "2023-09-12T07:05:00.476Z",
+        "updated_at": "2023-09-11T20:32:29.498Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c05010a-a0ce-46ff-baab-bcf988cfbec4",
+        "title": "Employee Engagement Survey",
+        "description": "Your opinion matters! Let us know how we can create a better work environment.",
+        "status": "inactive",
+        "created_at": "2023-09-12T08:05:50.584Z",
+        "updated_at": "2023-09-11T15:21:01.989Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fd50b971-b1b6-4a0c-bcb2-fdafc8430dd0",
+        "title": "Product Feedback Survey",
+        "description": "We value your input! Share your thoughts on our latest product.",
+        "status": "draft",
+        "created_at": "2023-09-11T17:11:48.528Z",
+        "updated_at": "2023-09-11T09:42:17.925Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5e3fceea-c8d4-45fc-a6bd-987fcd30fa58",
+        "title": "Market Research Survey",
+        "description": "Help us understand market trends by participating in this survey.",
+        "status": "completed",
+        "created_at": "2023-09-12T03:14:15.185Z",
+        "updated_at": "2023-09-11T15:40:05.341Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "682091a7-43d2-49fb-96f9-bee2b8355282",
+        "title": "Event Feedback Survey",
+        "description": "Tell us about your experience at our recent event.",
+        "status": "pending",
+        "created_at": "2023-09-12T04:38:16.047Z",
+        "updated_at": "2023-09-11T21:36:12.246Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "4f4ab8d8-9968-4fb3-8c0b-22cdd7afb132",
+        "text": "What is your favorite color?",
+        "type": "multiple choice",
+        "created_at": "2023-09-11T09:14:37.429Z",
+        "updated_at": "2023-09-12T00:51:01.701Z",
+        "survey_id": "682091a7-43d2-49fb-96f9-bee2b8355282"
+      },
+      {
+        "id": "76abe909-3e6c-4b1d-94a1-eaba1b9baa59",
+        "text": "How often do you exercise?",
+        "type": "rating scale",
+        "created_at": "2023-09-12T04:20:08.898Z",
+        "updated_at": "2023-09-11T19:56:22.155Z",
+        "survey_id": "5e3fceea-c8d4-45fc-a6bd-987fcd30fa58"
+      },
+      {
+        "id": "fc785371-6f90-4ef3-b350-3c62b21404cf",
+        "text": "Rate your satisfaction with our customer service.",
+        "type": "open-ended",
+        "created_at": "2023-09-11T21:30:35.848Z",
+        "updated_at": "2023-09-12T02:33:30.108Z",
+        "survey_id": "5e3fceea-c8d4-45fc-a6bd-987fcd30fa58"
+      },
+      {
+        "id": "c229ec85-36ef-4948-98f3-5b08bbe83b95",
+        "text": "Which social media platform do you use the most?",
+        "type": "yes/no",
+        "created_at": "2023-09-11T12:43:30.719Z",
+        "updated_at": "2023-09-11T12:34:43.922Z",
+        "survey_id": "fd50b971-b1b6-4a0c-bcb2-fdafc8430dd0"
+      },
+      {
+        "id": "5e672b9c-b2f7-4a14-b8f8-62a71c662c2f",
+        "text": "What is your preferred mode of transportation?",
+        "type": "ranking",
+        "created_at": "2023-09-11T17:40:03.424Z",
+        "updated_at": "2023-09-12T05:10:28.137Z",
+        "survey_id": "fd50b971-b1b6-4a0c-bcb2-fdafc8430dd0"
+      }
+    ],
+    "response": [
+      {
+        "id": "a8acddf0-b80e-477a-8e3f-7eb1f128e106",
+        "answer": "Blue",
+        "created_at": "2023-09-11T09:52:03.280Z",
+        "updated_at": "2023-09-12T00:44:37.450Z",
+        "question_id": "76abe909-3e6c-4b1d-94a1-eaba1b9baa59",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8fe3acb-c2f6-485d-8291-e8749057beee",
+        "answer": "3 times a week",
+        "created_at": "2023-09-11T18:05:33.956Z",
+        "updated_at": "2023-09-11T14:04:52.803Z",
+        "question_id": "4f4ab8d8-9968-4fb3-8c0b-22cdd7afb132",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c51ef076-10ed-4793-bf50-97694065ea70",
+        "answer": "Very satisfied",
+        "created_at": "2023-09-12T05:08:53.661Z",
+        "updated_at": "2023-09-11T12:30:26.925Z",
+        "question_id": "5e672b9c-b2f7-4a14-b8f8-62a71c662c2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b8aa3a2-cd52-4ed6-8138-6c0270b2e347",
+        "answer": "Facebook",
+        "created_at": "2023-09-12T03:59:18.981Z",
+        "updated_at": "2023-09-12T04:01:39.486Z",
+        "question_id": "c229ec85-36ef-4948-98f3-5b08bbe83b95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41c967e2-e1ac-4cd3-b907-2663fd9fe709",
+        "answer": "Car",
+        "created_at": "2023-09-12T06:58:11.116Z",
+        "updated_at": "2023-09-11T14:06:41.835Z",
+        "question_id": "fc785371-6f90-4ef3-b350-3c62b21404cf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8611e01a-c3b1-4715-a0fe-b1d273ef6d2c",
+        "email": "Fletcher55@gmail.com",
+        "firstName": "Cleve",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86108751",
+        "tenantId": null
+      },
+      {
+        "reference": "53ae34bb-cddd-4ae6-9136-d6435a7b53f1",
+        "email": "Yvette.Berge@gmail.com",
+        "firstName": "Luisa",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53416442",
+        "tenantId": null
+      },
+      {
+        "reference": "918e71fd-51b5-4fda-808f-d92bd87493e0",
+        "email": "Krystel_Bruen@hotmail.com",
+        "firstName": "Glenda",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34678941",
+        "tenantId": null
+      },
+      {
+        "reference": "dc3845d4-d332-4ffb-9ed5-93605695d0db",
+        "email": "Aidan.Cummerata74@hotmail.com",
+        "firstName": "Johnson",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43314990",
+        "tenantId": null
+      },
+      {
+        "reference": "c1c059b5-3752-4924-818d-d1630574a2c3",
+        "email": "Alva.Terry@yahoo.com",
+        "firstName": "Priscilla",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "a3aafc06-bb9a-469a-a89b-33aa53f9ad82",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-11T12:04:40.370Z",
+        "updated_at": "2023-09-12T02:45:06.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dbacefd-f0cc-496f-a253-37fd09d4a99c",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T20:51:57.885Z",
+        "updated_at": "2023-09-11T11:41:56.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33be429d-e79a-4a36-8448-08774ba4209a",
+        "name": "123 Industries",
+        "email": "sales@123industries.com",
+        "created_at": "2023-09-12T00:46:58.897Z",
+        "updated_at": "2023-09-11T23:39:42.736Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eb1e319-7d24-4a69-927c-3b74e2eb39b2",
+        "name": "Acme Corporation",
+        "email": "support@acmecorp.com",
+        "created_at": "2023-09-12T06:03:33.859Z",
+        "updated_at": "2023-09-11T12:35:31.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60f266d1-6f92-4613-8b0c-f80581758ca1",
+        "name": "Global Solutions",
+        "email": "info@globalsolutions.com",
+        "created_at": "2023-09-11T15:31:35.453Z",
+        "updated_at": "2023-09-11T20:25:57.590Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "d5a36042-826f-4ffa-9c7b-c0e19fa62268",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please provide your feedback on our products and services",
+        "status": "Active",
+        "created_at": "2023-09-11T19:57:19.917Z",
+        "updated_at": "2023-09-11T20:56:00.131Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f7527e1e-725a-406b-b450-3542132a157c",
+        "title": "Employee Engagement Survey",
+        "description": "Help us understand your level of engagement and satisfaction",
+        "status": "Inactive",
+        "created_at": "2023-09-11T14:33:36.659Z",
+        "updated_at": "2023-09-11T15:19:09.481Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "868350e3-4f80-4fd9-8bad-2727b11ac065",
+        "title": "Product Feedback Survey",
+        "description": "Share your thoughts on our latest product release",
+        "status": "Draft",
+        "created_at": "2023-09-12T06:02:25.017Z",
+        "updated_at": "2023-09-12T01:52:42.851Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d76c3c21-b054-42fc-8d3b-e89ec74942fb",
+        "title": "Market Research Survey",
+        "description": "Assist us in gathering market insights",
+        "status": "Published",
+        "created_at": "2023-09-12T05:17:17.894Z",
+        "updated_at": "2023-09-11T15:51:54.090Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a5718e7c-9430-4b06-ae21-a0f845d044ca",
+        "title": "Event Feedback Survey",
+        "description": "Tell us about your experience at our recent event",
+        "status": "Closed",
+        "created_at": "2023-09-11T20:21:52.001Z",
+        "updated_at": "2023-09-11T22:40:55.273Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "d4b85fd7-17ef-474c-bad7-010481697808",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T13:16:47.156Z",
+        "updated_at": "2023-09-12T05:13:14.118Z",
+        "survey_id": "d76c3c21-b054-42fc-8d3b-e89ec74942fb"
+      },
+      {
+        "id": "35abed02-c2bb-4794-857e-9ef730c9699f",
+        "text": "How likely are you to recommend our company to a friend?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-12T04:23:05.654Z",
+        "updated_at": "2023-09-11T08:33:34.374Z",
+        "survey_id": "d76c3c21-b054-42fc-8d3b-e89ec74942fb"
+      },
+      {
+        "id": "00c59774-f553-43d9-abe4-3c0104c44a1c",
+        "text": "Which product feature do you find most valuable?",
+        "type": "Open-Ended",
+        "created_at": "2023-09-11T12:09:31.967Z",
+        "updated_at": "2023-09-12T00:11:49.976Z",
+        "survey_id": "d76c3c21-b054-42fc-8d3b-e89ec74942fb"
+      },
+      {
+        "id": "11adcbfd-fd07-4c76-97e5-5deda56f3248",
+        "text": "What is your opinion on the current market trends?",
+        "type": "Likert Scale",
+        "created_at": "2023-09-12T01:33:28.866Z",
+        "updated_at": "2023-09-11T15:55:08.434Z",
+        "survey_id": "a5718e7c-9430-4b06-ae21-a0f845d044ca"
+      },
+      {
+        "id": "348526b7-21aa-46a1-b79a-1af9df1322d7",
+        "text": "Did you find the event informative and engaging?",
+        "type": "Yes/No",
+        "created_at": "2023-09-11T12:24:41.362Z",
+        "updated_at": "2023-09-12T04:52:56.052Z",
+        "survey_id": "a5718e7c-9430-4b06-ae21-a0f845d044ca"
+      }
+    ],
+    "response": [
+      {
+        "id": "47a655c7-3a34-4c74-b884-e2c0c691742b",
+        "answer": "Blue",
+        "created_at": "2023-09-11T10:14:12.005Z",
+        "updated_at": "2023-09-11T17:47:36.498Z",
+        "question_id": "d4b85fd7-17ef-474c-bad7-010481697808",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e10fb97-eec2-4b1d-847e-a75c109c0226",
+        "answer": "Extremely likely",
+        "created_at": "2023-09-12T00:00:32.625Z",
+        "updated_at": "2023-09-11T16:23:23.801Z",
+        "question_id": "348526b7-21aa-46a1-b79a-1af9df1322d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4d76810-7835-4be1-a9c5-78df1134bb15",
+        "answer": "User-friendly interface",
+        "created_at": "2023-09-12T02:00:52.017Z",
+        "updated_at": "2023-09-11T15:23:00.323Z",
+        "question_id": "348526b7-21aa-46a1-b79a-1af9df1322d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67bac41c-038e-4df7-b3e5-05baaa62d571",
+        "answer": "I believe the market trends are promising",
+        "created_at": "2023-09-11T18:07:23.753Z",
+        "updated_at": "2023-09-12T02:35:10.037Z",
+        "question_id": "d4b85fd7-17ef-474c-bad7-010481697808",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ca82461-c68e-4f5e-b098-85f34a3f124d",
+        "answer": "Yes, I found the event very informative",
+        "created_at": "2023-09-12T00:54:46.967Z",
+        "updated_at": "2023-09-11T14:39:38.359Z",
+        "question_id": "35abed02-c2bb-4794-857e-9ef730c9699f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7121175d-afa2-481c-8a33-dfc40074a90c",
+        "email": "Emmalee_Morissette-Boyer97@gmail.com",
+        "firstName": "Emory",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1004.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f16926cd-8cf6-439b-938d-acd039310b82",
+        "email": "Isaiah.Schulist25@gmail.com",
+        "firstName": "Gisselle",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97534993",
+        "tenantId": null
+      },
+      {
+        "reference": "c0692913-73e6-48c4-8279-77dc6c5eb3f9",
+        "email": "Frederique_Haley@hotmail.com",
+        "firstName": "Dean",
+        "lastName": "Mante-Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/506.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c298a1e-1e24-4810-b394-0f394cd090d6",
+        "email": "Alf73@hotmail.com",
+        "firstName": "Yoshiko",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69023909",
+        "tenantId": null
+      },
+      {
+        "reference": "bdb829b7-cafe-4783-abfe-ba593a461606",
+        "email": "Lamont.Waters45@yahoo.com",
+        "firstName": "Amir",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41547662",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "0c0a3f0e-3e6e-4a59-867a-7338fa4b6e07",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-11T20:57:50.236Z",
+        "updated_at": "2023-09-11T22:25:51.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e432d1d-1487-4c49-b731-0d23a996c95c",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-12T06:51:13.550Z",
+        "updated_at": "2023-09-11T10:19:10.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a929b9e1-9617-4bf2-b403-d6393634b194",
+        "name": "123 Enterprises",
+        "email": "sales@123enterprises.com",
+        "created_at": "2023-09-12T03:22:46.343Z",
+        "updated_at": "2023-09-11T19:37:11.820Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a2f70f3-68e7-4f6b-94a6-d7773ce25394",
+        "name": "Acme Corporation",
+        "email": "support@acmecorp.com",
+        "created_at": "2023-09-12T03:56:18.805Z",
+        "updated_at": "2023-09-11T15:20:35.159Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad0b5043-aeab-4111-9eb4-ac9875e25282",
+        "name": "Global Solutions",
+        "email": "info@globalsolutions.com",
+        "created_at": "2023-09-11T23:19:39.389Z",
+        "updated_at": "2023-09-12T05:59:54.133Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "c7e437fa-bf3b-4641-8573-9b0051abfcb1",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please provide your feedback on our products and services.",
+        "status": "active",
+        "created_at": "2023-09-12T02:29:02.173Z",
+        "updated_at": "2023-09-12T06:22:32.951Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cf0267fb-3e2b-4c55-a1f2-472243b95099",
+        "title": "Employee Engagement Survey",
+        "description": "Help us improve employee satisfaction by sharing your thoughts.",
+        "status": "inactive",
+        "created_at": "2023-09-11T09:20:44.860Z",
+        "updated_at": "2023-09-12T04:14:03.681Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "01ebe47c-53be-45a5-876e-f7c5a7b57399",
+        "title": "Product Feedback Survey",
+        "description": "We value your opinion on our latest product release.",
+        "status": "draft",
+        "created_at": "2023-09-12T08:11:51.641Z",
+        "updated_at": "2023-09-11T13:09:57.972Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "354ca2d3-75cd-40db-a92b-f5e5cb53cf3f",
+        "title": "Market Research Survey",
+        "description": "Participate in our market research to shape our future strategies.",
+        "status": "completed",
+        "created_at": "2023-09-11T15:33:27.934Z",
+        "updated_at": "2023-09-11T16:15:12.473Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3cded0af-694a-4b58-8251-0a370e9d9def",
+        "title": "Event Feedback Survey",
+        "description": "Let us know how we can enhance your experience at our event.",
+        "status": "pending",
+        "created_at": "2023-09-11T19:50:31.642Z",
+        "updated_at": "2023-09-11T22:18:22.843Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "97d88835-a204-4eef-b0a0-f7bec9ec26f9",
+        "text": "What is your favorite color?",
+        "type": "multiple choice",
+        "created_at": "2023-09-11T12:05:20.808Z",
+        "updated_at": "2023-09-12T04:20:34.293Z",
+        "survey_id": "354ca2d3-75cd-40db-a92b-f5e5cb53cf3f"
+      },
+      {
+        "id": "bfd0e82c-1a09-433a-8548-634251c80cdf",
+        "text": "How likely are you to recommend our company to others?",
+        "type": "rating",
+        "created_at": "2023-09-11T16:42:26.585Z",
+        "updated_at": "2023-09-11T20:19:01.287Z",
+        "survey_id": "01ebe47c-53be-45a5-876e-f7c5a7b57399"
+      },
+      {
+        "id": "87c85cc7-caed-4ae9-9999-9a6355b6af32",
+        "text": "Which product feature do you find most useful?",
+        "type": "open-ended",
+        "created_at": "2023-09-11T12:46:23.623Z",
+        "updated_at": "2023-09-12T08:14:45.753Z",
+        "survey_id": "01ebe47c-53be-45a5-876e-f7c5a7b57399"
+      },
+      {
+        "id": "60c9b5b3-35a3-40d9-8332-7e10e0e522bc",
+        "text": "What is your age group?",
+        "type": "yes/no",
+        "created_at": "2023-09-12T07:43:31.534Z",
+        "updated_at": "2023-09-11T16:40:37.381Z",
+        "survey_id": "354ca2d3-75cd-40db-a92b-f5e5cb53cf3f"
+      },
+      {
+        "id": "07ac9482-0758-4b3e-aed8-b00fafdf615f",
+        "text": "Rate your overall satisfaction with our event on a scale of 1-10.",
+        "type": "ranking",
+        "created_at": "2023-09-11T11:25:42.357Z",
+        "updated_at": "2023-09-11T23:42:00.741Z",
+        "survey_id": "354ca2d3-75cd-40db-a92b-f5e5cb53cf3f"
+      }
+    ],
+    "response": [
+      {
+        "id": "8b93c885-9c12-4c34-9383-e6949c1ef311",
+        "answer": "Blue",
+        "created_at": "2023-09-12T03:42:09.732Z",
+        "updated_at": "2023-09-11T18:10:02.606Z",
+        "question_id": "87c85cc7-caed-4ae9-9999-9a6355b6af32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59a59afb-4b04-4ead-9c36-edba22c44497",
+        "answer": "Extremely likely",
+        "created_at": "2023-09-12T02:32:28.371Z",
+        "updated_at": "2023-09-11T14:37:15.730Z",
+        "question_id": "60c9b5b3-35a3-40d9-8332-7e10e0e522bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77b63538-651e-4f3a-a12c-60c7bbb7ef7a",
+        "answer": "User-friendly interface",
+        "created_at": "2023-09-12T02:43:11.078Z",
+        "updated_at": "2023-09-11T22:45:12.149Z",
+        "question_id": "07ac9482-0758-4b3e-aed8-b00fafdf615f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27671914-fe71-4d1a-9560-56dbd13e8e3f",
+        "answer": "25-34",
+        "created_at": "2023-09-12T06:01:47.132Z",
+        "updated_at": "2023-09-12T02:02:16.050Z",
+        "question_id": "97d88835-a204-4eef-b0a0-f7bec9ec26f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6245a0a-811e-4ad7-92da-66739e5e46ed",
+        "answer": "8",
+        "created_at": "2023-09-11T22:20:22.362Z",
+        "updated_at": "2023-09-11T10:04:53.031Z",
+        "question_id": "07ac9482-0758-4b3e-aed8-b00fafdf615f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3fa8fa74-6108-40a3-8511-d62d22aa168c",
+        "email": "Leonard.Boyer20@gmail.com",
+        "firstName": "Dion",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14513182",
+        "tenantId": null
+      },
+      {
+        "reference": "457165c3-a757-4e70-8a32-bb61b3019394",
+        "email": "Keshaun_Boyle87@hotmail.com",
+        "firstName": "Thea",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/268.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "90888862-9338-4fb9-9033-1c2947490720",
+        "email": "Judd35@hotmail.com",
+        "firstName": "Clint",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b89716a-40a0-4085-8e39-b1a78dbc7599",
+        "email": "Princess37@gmail.com",
+        "firstName": "Yoshiko",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73176422",
+        "tenantId": null
+      },
+      {
+        "reference": "87c9bb5f-e77e-4a08-9831-0e36eb7c52df",
+        "email": "Travon_Kerluke87@hotmail.com",
+        "firstName": "Easter",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91476003",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "60df6504-5001-4a12-9bd0-22eea91d3e6d",
+        "name": "Vendor1",
+        "email": "vendor1@example.com",
+        "created_at": "2023-09-11T15:25:38.224Z",
+        "updated_at": "2023-09-11T15:18:51.686Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3264364b-722a-4a1a-95d4-45cd519ea2a5",
+        "name": "Vendor2",
+        "email": "vendor2@example.com",
+        "created_at": "2023-09-11T14:55:43.557Z",
+        "updated_at": "2023-09-12T07:57:31.044Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68693204-d280-400b-9223-f718257d68c9",
+        "name": "Vendor3",
+        "email": "vendor3@example.com",
+        "created_at": "2023-09-12T02:33:04.086Z",
+        "updated_at": "2023-09-12T02:03:19.190Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cba251d6-0228-463e-a12a-a224c4055834",
+        "name": "Vendor4",
+        "email": "vendor4@example.com",
+        "created_at": "2023-09-11T22:31:12.248Z",
+        "updated_at": "2023-09-11T17:04:40.190Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f93c9e5-c6ed-40bd-b62c-e418b2fc25df",
+        "name": "Vendor5",
+        "email": "vendor5@example.com",
+        "created_at": "2023-09-12T04:11:43.446Z",
+        "updated_at": "2023-09-11T16:39:48.788Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "974ce975-4aca-4748-9e41-d792fbc98717",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please provide your feedback on our products and services",
+        "status": "Active",
+        "created_at": "2023-09-12T06:40:53.324Z",
+        "updated_at": "2023-09-12T02:59:05.595Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f88f9ed2-839e-4171-80c5-43d706d715ec",
+        "title": "Employee Engagement Survey",
+        "description": "Help us improve our workplace environment by sharing your thoughts",
+        "status": "Inactive",
+        "created_at": "2023-09-11T18:02:38.481Z",
+        "updated_at": "2023-09-12T01:05:55.984Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bb9a1564-926e-45c5-bdec-558b57d2f1b0",
+        "title": "Product Feedback Survey",
+        "description": "We value your opinion on our latest product release",
+        "status": "Draft",
+        "created_at": "2023-09-12T01:16:12.465Z",
+        "updated_at": "2023-09-12T06:23:24.824Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b539460c-49be-4faf-a78d-9e3c16b8ecf1",
+        "title": "Market Research Survey",
+        "description": "Your insights will contribute to our market analysis",
+        "status": "Completed",
+        "created_at": "2023-09-11T22:56:05.386Z",
+        "updated_at": "2023-09-12T01:07:54.132Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3be4356e-239b-49a9-816a-b454a49cec6f",
+        "title": "Event Feedback Survey",
+        "description": "Let us know how we can enhance future events",
+        "status": "Pending",
+        "created_at": "2023-09-11T21:18:24.137Z",
+        "updated_at": "2023-09-12T04:16:03.118Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "40509397-6de5-4658-be8c-81260ac2138b",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T18:18:51.126Z",
+        "updated_at": "2023-09-11T21:36:22.203Z",
+        "survey_id": "f88f9ed2-839e-4171-80c5-43d706d715ec"
+      },
+      {
+        "id": "4cc3c76f-7740-4c00-8506-4b2a111f5711",
+        "text": "How likely are you to recommend our services to others?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-12T01:40:14.919Z",
+        "updated_at": "2023-09-11T19:51:43.513Z",
+        "survey_id": "3be4356e-239b-49a9-816a-b454a49cec6f"
+      },
+      {
+        "id": "e079b863-08af-43f2-845c-2285c42f77e2",
+        "text": "What is your preferred method of communication?",
+        "type": "Open-ended",
+        "created_at": "2023-09-11T12:04:48.894Z",
+        "updated_at": "2023-09-12T07:14:07.411Z",
+        "survey_id": "bb9a1564-926e-45c5-bdec-558b57d2f1b0"
+      },
+      {
+        "id": "0a73e132-4ff4-4885-9c7f-2769f18aa359",
+        "text": "Do you agree with the statement: 'Our product meets your expectations'?",
+        "type": "Yes/No",
+        "created_at": "2023-09-12T03:40:24.908Z",
+        "updated_at": "2023-09-11T20:49:23.591Z",
+        "survey_id": "bb9a1564-926e-45c5-bdec-558b57d2f1b0"
+      },
+      {
+        "id": "2ed13a64-a600-4a57-863a-c3ac4e3c858c",
+        "text": "Please rate your overall satisfaction with our customer support",
+        "type": "Likert Scale",
+        "created_at": "2023-09-11T19:14:55.164Z",
+        "updated_at": "2023-09-11T19:28:07.684Z",
+        "survey_id": "b539460c-49be-4faf-a78d-9e3c16b8ecf1"
+      }
+    ],
+    "response": [
+      {
+        "id": "d46fd549-f7da-4c43-a6f2-5104f34aead7",
+        "answer": "Yes",
+        "created_at": "2023-09-11T19:29:43.369Z",
+        "updated_at": "2023-09-12T05:46:14.360Z",
+        "question_id": "4cc3c76f-7740-4c00-8506-4b2a111f5711",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31cbf143-47b9-4e32-8dae-80cc68add9b2",
+        "answer": "No",
+        "created_at": "2023-09-11T16:44:34.819Z",
+        "updated_at": "2023-09-11T18:57:12.508Z",
+        "question_id": "e079b863-08af-43f2-845c-2285c42f77e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b3bd6fa-1426-4d1f-977b-325d25c83663",
+        "answer": "Maybe",
+        "created_at": "2023-09-11T17:06:50.212Z",
+        "updated_at": "2023-09-11T11:21:31.696Z",
+        "question_id": "2ed13a64-a600-4a57-863a-c3ac4e3c858c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29a7d9e7-1a2f-471c-8272-29a1a277eb79",
+        "answer": "I don't know",
+        "created_at": "2023-09-11T14:24:56.967Z",
+        "updated_at": "2023-09-11T09:13:11.717Z",
+        "question_id": "e079b863-08af-43f2-845c-2285c42f77e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d44fe97d-729b-4811-a257-b44dacc37ccf",
+        "answer": "Not applicable",
+        "created_at": "2023-09-11T13:40:29.124Z",
+        "updated_at": "2023-09-11T18:05:58.717Z",
+        "question_id": "e079b863-08af-43f2-845c-2285c42f77e2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "79f90250-2b89-4d7d-8f4f-7dd677b4589f",
+        "email": "Cloyd99@hotmail.com",
+        "firstName": "Karen",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/269.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "081ea891-3f9d-4cbd-a733-9830d86f3958",
+        "email": "Della.Runolfsdottir@gmail.com",
+        "firstName": "Lyda",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32929442",
+        "tenantId": null
+      },
+      {
+        "reference": "dc104b0f-8d2a-468c-b670-fd280ea3ad5e",
+        "email": "Xander_Walker15@gmail.com",
+        "firstName": "Merl",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51610042",
+        "tenantId": null
+      },
+      {
+        "reference": "f981e2f2-4af6-4e79-8832-9dfc8e2abb4a",
+        "email": "Jermain_Lang@hotmail.com",
+        "firstName": "Ulices",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63322286",
+        "tenantId": null
+      },
+      {
+        "reference": "e26bd641-69db-4e2e-af27-f97b5d3718fc",
+        "email": "Tabitha15@yahoo.com",
+        "firstName": "Carmel",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vendor": [
+      {
+        "id": "678ca9b1-ac69-40cf-bdaa-62759a8ece84",
+        "name": "ABC Company",
+        "email": "info@abccompany.com",
+        "created_at": "2023-09-11T12:05:08.306Z",
+        "updated_at": "2023-09-12T01:08:46.407Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe3bde9b-194d-4267-993e-75b5a11f48a4",
+        "name": "XYZ Corporation",
+        "email": "contact@xyzcorp.com",
+        "created_at": "2023-09-11T12:57:33.459Z",
+        "updated_at": "2023-09-11T10:50:34.914Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1be29ce-4f4e-48e5-b698-c94be42a7e43",
+        "name": "123 Industries",
+        "email": "sales@123industries.com",
+        "created_at": "2023-09-11T10:00:32.216Z",
+        "updated_at": "2023-09-12T06:25:39.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e7ad4e8-9ad2-472a-bbe7-72258f1ff876",
+        "name": "Acme Corporation",
+        "email": "support@acmecorp.com",
+        "created_at": "2023-09-11T14:35:00.367Z",
+        "updated_at": "2023-09-11T09:37:18.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "646bac6f-d293-473b-acf9-631e8dc17c0f",
+        "name": "Global Solutions",
+        "email": "info@globalsolutions.com",
+        "created_at": "2023-09-11T16:08:49.521Z",
+        "updated_at": "2023-09-12T04:56:59.143Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "survey": [
+      {
+        "id": "ea54dd0b-52e7-4622-a81a-2fdd22f7029f",
+        "title": "Customer Satisfaction Survey",
+        "description": "Please provide your feedback on our products and services",
+        "status": "Active",
+        "created_at": "2023-09-11T18:11:56.680Z",
+        "updated_at": "2023-09-11T23:35:16.239Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a0c41919-4782-470a-85e7-6cfc945e56df",
+        "title": "Employee Engagement Survey",
+        "description": "Help us improve employee satisfaction by sharing your thoughts",
+        "status": "Inactive",
+        "created_at": "2023-09-11T16:55:51.205Z",
+        "updated_at": "2023-09-12T02:24:05.457Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9948ae5f-1303-44f5-b3fe-a8d6af0f1d7a",
+        "title": "Product Feedback Survey",
+        "description": "Tell us what you think about our latest product release",
+        "status": "Draft",
+        "created_at": "2023-09-11T18:56:53.665Z",
+        "updated_at": "2023-09-12T00:25:51.627Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55768943-0822-4fc7-bb37-fc553f4cac1f",
+        "title": "Market Research Survey",
+        "description": "We would like to understand your preferences and opinions",
+        "status": "Published",
+        "created_at": "2023-09-11T14:18:54.286Z",
+        "updated_at": "2023-09-11T18:52:05.976Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a44fc82d-be9c-48b4-a792-1fccd7e6bb95",
+        "title": "Event Feedback Survey",
+        "description": "Share your experience at our recent event",
+        "status": "Closed",
+        "created_at": "2023-09-12T01:53:03.958Z",
+        "updated_at": "2023-09-12T07:47:59.381Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "question": [
+      {
+        "id": "6beb5c8d-2f07-4611-bc95-3a0875d09ef2",
+        "text": "What is your favorite color?",
+        "type": "Multiple Choice",
+        "created_at": "2023-09-11T19:45:50.224Z",
+        "updated_at": "2023-09-11T22:12:16.105Z",
+        "survey_id": "55768943-0822-4fc7-bb37-fc553f4cac1f"
+      },
+      {
+        "id": "6548f296-3a15-4788-8cb7-65b482b0cece",
+        "text": "How often do you exercise?",
+        "type": "Rating Scale",
+        "created_at": "2023-09-11T22:15:50.799Z",
+        "updated_at": "2023-09-11T20:06:12.678Z",
+        "survey_id": "55768943-0822-4fc7-bb37-fc553f4cac1f"
+      },
+      {
+        "id": "8d83a4c3-d2bd-4ecc-bfb2-cda446ed6093",
+        "text": "Rate your satisfaction with our customer service",
+        "type": "Open-ended",
+        "created_at": "2023-09-11T17:49:50.966Z",
+        "updated_at": "2023-09-11T16:13:13.256Z",
+        "survey_id": "55768943-0822-4fc7-bb37-fc553f4cac1f"
+      },
+      {
+        "id": "b24b30f3-2a16-47ab-a8cd-ee4d77a1554e",
+        "text": "Which type of music do you prefer?",
+        "type": "Yes/No",
+        "created_at": "2023-09-11T13:21:13.915Z",
+        "updated_at": "2023-09-12T07:27:42.066Z",
+        "survey_id": "55768943-0822-4fc7-bb37-fc553f4cac1f"
+      },
+      {
+        "id": "da27f5e5-8a45-49b2-ad92-9154f297f30d",
+        "text": "What is your preferred method of communication?",
+        "type": "Likert Scale",
+        "created_at": "2023-09-11T19:03:45.461Z",
+        "updated_at": "2023-09-11T13:53:54.594Z",
+        "survey_id": "a0c41919-4782-470a-85e7-6cfc945e56df"
+      }
+    ],
+    "response": [
+      {
+        "id": "f3b17d7d-16cf-4922-aef7-81f23b07623e",
+        "answer": "Yes",
+        "created_at": "2023-09-12T03:54:55.028Z",
+        "updated_at": "2023-09-11T19:48:39.284Z",
+        "question_id": "b24b30f3-2a16-47ab-a8cd-ee4d77a1554e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d610c8f-8457-4c1d-b67f-808cd6aee3cb",
+        "answer": "No",
+        "created_at": "2023-09-12T01:37:28.037Z",
+        "updated_at": "2023-09-11T20:22:14.132Z",
+        "question_id": "b24b30f3-2a16-47ab-a8cd-ee4d77a1554e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aebf79c0-3b18-4ff7-b06d-298b34a3cec4",
+        "answer": "Maybe",
+        "created_at": "2023-09-12T02:40:45.639Z",
+        "updated_at": "2023-09-11T13:50:45.566Z",
+        "question_id": "da27f5e5-8a45-49b2-ad92-9154f297f30d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64a98661-ef94-4756-b609-7c037e95f2f5",
+        "answer": "Not sure",
+        "created_at": "2023-09-11T19:54:57.298Z",
+        "updated_at": "2023-09-12T01:24:28.775Z",
+        "question_id": "8d83a4c3-d2bd-4ecc-bfb2-cda446ed6093",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "866bce67-a04b-439f-9c42-798bb18e41d6",
+        "answer": "I don't know",
+        "created_at": "2023-09-12T00:18:07.187Z",
+        "updated_at": "2023-09-12T00:11:19.143Z",
+        "question_id": "da27f5e5-8a45-49b2-ad92-9154f297f30d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "700c2b0d-27f3-492c-a8fa-29442e1db29f",
+        "email": "Kevin0@gmail.com",
+        "firstName": "Clyde",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60342731",
+        "tenantId": null
+      },
+      {
+        "reference": "5f813b6c-3498-4679-974a-1460bc1d152c",
+        "email": "Forrest.Muller8@hotmail.com",
+        "firstName": "Jovani",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13851421",
+        "tenantId": null
+      },
+      {
+        "reference": "ecc07f0c-8cca-4d36-8c22-93c7481401ac",
+        "email": "Marianna.Turcotte@yahoo.com",
+        "firstName": "America",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/720.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bea4abf0-3bc6-46cf-a926-0d5a9a414652",
+        "email": "Hayden51@hotmail.com",
+        "firstName": "Charley",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/730.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a55b51ee-6b7c-44ac-bd0c-0df4bf91978e",
+        "email": "Elody42@gmail.com",
+        "firstName": "Karelle",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
